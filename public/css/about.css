@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+nav {
+    position: sticky;
+    height: 60px;
+    padding: 10px;
+    background-color: #0C356A;
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+#logo{
+    color: #DAFFFB;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a {
+    color: #DAFFFB;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover{
+    cursor:pointer;
+    background-color:#EFFFFD;
+    color:#0E2954;
+    border-radius: 20px;
+    padding: 10px;
+    transition-delay: 0.2s;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #01204E;
+    text-decoration: underline;
+    text-decoration-color: #99F3BD;
+}
+.hd{
+    color:#00FFAB;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 10px;
+}
+.box1,.box2{
+    flex: 1;
+    margin: 20px;
+}
+.mini-box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+h2{
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:#0FEFBD;
+}
+.para{
+    color:#144272;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #222831;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box5,
+.box6,
+.box7,
+.box8 {
+    flex: 1;
+    color: #FFFBE7;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: left;
+    color: #14C38E;
+}
+
+.footer-heading {
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.footer-heading:nth-of-type(4) {
+    margin-left: 50px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.box9,
+.box10 {
+    flex: 1;
+}
+
+.ds {
+    margin-left: 40px;
+    color: #FFFBE7;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.copyrights {
+    text-align: center;
+    color: #FFFF80;
+}
+
+.c1 {
+    color: #99F3BD;
+}
+
