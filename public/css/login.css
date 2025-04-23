@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+nav {
+    position: sticky;
+    height: 60px;
+    padding: 10px;
+    background-color: #0C356A;
+}
+
+ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+}
+#logo{
+    color: #DAFFFB;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a {
+    color: #DAFFFB;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover{
+    cursor:pointer;
+    background-color:#EFFFFD;
+    color:#0E2954;
+    border-radius: 20px;
+    padding: 10px;
+    transition-delay: 0.2s;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    color:#0E2954;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #0E2954;
+}
+.signin{
+    font-size: 15px;
+    color:#14C38E;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 550px;
+    margin-right: 491px;
+}
+label{
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #787A91;
+}
+input[type=email]
+{
+    width: 300px;
+    height: 40px;
+}
+input[type=password]
+{
+    width: 300px;
+    height: 40px;
+}
+input[type=submit]
+{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #222831;
+    color: #99F3BD;
+    border: none;
+    font-size: 17px;
+}
+::placeholder{
+color: #0E2954;
+font-weight: 600;
+}
+#form-box{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #222831;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.box5 , .box6 , .box7 , .box8{
+    flex: 1;
+    color:#FFFBE7;
+}
+h3{
+    font-size: 18px;
+    text-align: left;
+    color: #14C38E;
+}
+.footer-heading{
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.footer-heading:nth-of-type(4){
+    margin-left: 50px;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.box9 , .box10{
+    flex: 1;
+}
+.ds{
+    margin-left: 40px;
+    color: #FFFBE7;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.copyrights{
+    text-align: center;
+    color:#FFFF80;
+}
+
+.c1{
+    color:#99F3BD;
+}
+
