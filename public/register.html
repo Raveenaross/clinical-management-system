@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechMed</title>
+    <title>TechMed Registration</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 
 <body>
@@ -31,55 +30,21 @@
             <li class="items"><a href="book.html">Book Appointment</a></li>
         </ul>
     </nav>
-    <h1>About <span class="hd">TechMed</span></h1>
-    <section>
-        <div class="container-2">
-            <div class="box1">
-                <div class="mini-box">
-                    <img src="assets/gif/info.gif" alt="gif not found" width="50px" height="50px">
-                    <h2>About Us</h2>
-                </div>
-                <p class="para">Welcome to TechMed, where technology meets healthcare innovation. At TechMed, we are passionate about
-                    leveraging cutting-edge technology to revolutionize the medical field. Our mission is to create
-                    advanced solutions that enhance patient care, streamline healthcare operations, and empower medical
-                    professionals worldwide.</p>
-                <div class="mini-box">
-                    <img src="assets/gif/vision.gif" alt="gif not found" width="50px" height="50px">
-                    <h2>Our Vision</h2>
-                </div>
-                <p class="para"> We envision a future where technology plays a pivotal role in improving healthcare outcomes
-                    globally. By integrating the latest advancements in artificial intelligence, machine learning, and
-                    data analytics, we aim to transform the delivery of medical services and make healthcare more
-                    accessible, efficient, and personalized.</p>
-                <div class="mini-box">
-                    <img src="assets/gif/tasks .gif" alt="gif not found" width="50px" height="50px">
-                    <h2> What We Do ?</h2>
-                </div>
-                <p class="para"> TechMed specializes in developing innovative software and hardware solutions tailored to meet the
-                    unique challenges of the healthcare industry. From AI-driven diagnostic tools to secure telemedicine
-                    platforms, our products are designed to optimize workflows, increase diagnostic accuracy, and
-                    improve patient outcomes.</p>
-                <div class="mini-box">
-                    <img src="assets/gif/commitment.gif" alt="gif not found" width="50px" height="50px">
-                    <h2> Our Commitment</h2>
-                </div>
-                <p class="para"> At TechMed, we are dedicated to making a positive impact on the healthcare landscape. Whether it’s
-                    developing groundbreaking medical devices or creating intuitive healthcare software, we strive to
-                    empower healthcare providers and improve patient care outcomes worldwide.</p>
-                <div class="mini-box">
-                    <img src="assets/gif/people-contact.gif" alt="gif not found" width="50px" height="50px">
-                    <h2> Get in Touch</h2>
-                </div>
-                <p class="para"> Explore how TechMed can transform your healthcare practice or organization. Contact us today to
-                    learn more about our products and services.</p>
-            </div>
-            <div class="box2">
-                <video controls width="600" height="400">
-                    <source src="video/sample.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </section>
+    <h1>Register a new account</h1>
+    <h2>Already Signed Up ? Click <a class="signin" href="login.html">Sign in</a>to login to your account</h2>
+    <div class="container-2">
+    <form id="form-box" action="/register" method="post">
+        <label for="nm">Name</label>
+        <input type="text" name="nm" id="nm" placeholder="enter name here..." required>
+        <label for="addr">Email address</label>
+        <input type="email" name="addr" id="addr" placeholder="enter address here..." required>
+        <label for="psw">Password</label>
+        <input type="password" name="psw" id="psw" placeholder="enter password here..." required>
+        <label for="cpsw">Confirm password</label>
+        <input type="password" name="cpsw" id="cpsw" placeholder="confirm your password..." required>
+        <input type="submit" value="Register">
+    </form>
+    </div>
     <footer>
         <div class="container-3">
             <div class="box5">
@@ -130,5 +95,4 @@
     </footer>
     <script src="js/prevent.js"></script>
 </body>
-
 </html>

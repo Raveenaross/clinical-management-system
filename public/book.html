@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMed Book Appointment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/book.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="logo">TechMed</li>
+            <li class="items"><a href="home.html">Home</a></li>
+            <li class="items"><a href="about.html">About us</a></li>
+            <li class="items"><a href="gallery.html">Gallery</a></li>
+            <li class="items"><a href="blogs.html">Blogs</a></li>
+            <li class="items"><a href="register.html">Registration</a></li>
+            <li class="items"><a href="login.html">Login</a></li>
+            <li class="items"><a href="book.html">Book Appointment</a></li>
+        </ul>
+    </nav>
+    <h1>Appointment Form</h1>
+    <div class="container-2">
+        <div class="box1">
+            <form action="/book" method="post">
+                    <label for="nm">Name</label>
+                    <input type="text" name="nm" id="nm" required>
+                    <label for="addr">Email address</label>
+                    <input type="email" name="addr" id="addr" required>
+                    <label for="pp">Purpose of Appointment</label>
+                    <input type="text" id="pp" name="pp" required>
+                    <label for="mn">Mobile Number</label>
+                    <input type="number" id="mn" name="mn" required>
+                    <select name="dept" id="dept">
+                        <option value="">Select Department</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Dermatology">Dermatology</option>
+                        <option value="Endocrinology">Endocrinology</option>
+                        <option value="Gastroenterology">Gastroenterology</option>
+                        <option value="Hematology">Hematology</option>
+                        <option value="Nephrology">Nephrology</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Obstetrics and Gynecology">Obstetrics and Gynecology</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Ophthalmology">Ophthalmology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Otolaryngology">Otolaryngology (ENT)</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="Pulmonology">Pulmonology</option>
+                        <option value="Radiology">Radiology</option>
+                        <option value="Rheumatology">Rheumatology</option>
+                        <option value="Urology">Urology</option>
+                    </select>
+                    <label for="dt">Select Date</label>
+                    <input type="date" name="dt" id="dt" required>
+                    <label for="tm">Select Time</label>
+                    <input type="time" name="tm" id="tm" required>
+                    <input type="submit" value="Send">
+            </form>
+        </div>
+        <div class="box2">
+            <div class="mini-box">
+            <img src="assets/gif/appointment.gif" alt="gif not found" width="50px" height="50px">
+            <h2>Appointment Notes</h2>
+            </div>
+            <p class="para">You Only Can Book Your Appointment Between <span class="sp">8 AM</span> to <span class="sp">10 PM</span>.
+                <br><br>
+                In Other Times You Can Call Our Ambulance Which Is Available 24/7.
+            </p>
+            <div class="mini-box">
+            <img src="assets/gif/work-hours.gif" alt="gif not found" width="50px" height="50px">
+            <h2>Business Hours</h2>
+            </div>
+            <p class="para"><span class="sp">Monday-Saturday</span>: 24/7 Available.
+                <br><br>
+                <span class="sp">Sunday:</span> 4 AM to 11 PM.
+            </p>
+            <div class="mini-box">
+            <img src="assets/gif/notes.gif" alt="gif not found" width="50px" height="50px">
+            <h2>Notes for Patients</h2>
+            </div>
+            <p class="para">Appointments can be scheduled online through our website or by calling <span class="sp">(123) 456-7890</span>.
+                <br><br>
+                For urgent medical concerns outside regular hours, please call our emergency line at <span class="sp">(987) 654-3210</span>.
+                <br><br>
+                Please arrive 15 minutes before your scheduled appointment time for registration.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="container-3">
+            <div class="box5">
+                <h3 class="footer-heading"> Contact Us </h3>
+                <ul class="footer-ul">
+                    <li>TechMed Healthcare Facility</li>
+                    <li>123 Healthcare Drive, New York, USA</li>
+                    <li>Phone: +1-XXX-XXX-XXXX</li>
+                    <li>Email: info@techmed.com</li>
+                </ul>
+            </div>
+            <div class="box6">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-ul">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Our Specialties</li>
+                    <li>Patient Resources</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="box7">
+                <h3 class="footer-heading">Follow us on social media</h3>
+                <ul class="footer-ul">
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
+            <div class="box8">
+                <h3 class="footer-heading">Working Hours</h3>
+                <p>Our facility is open 24/7 for your convenience</p>
+            </div>
+        </div>
+        <div class="container-4">
+            <div class="box9">
+                <h3 class="footer-heading">Disclaimer</h3>
+                <p class="ds">
+                    All content provided on this website is for informational purposes only. It is not intended to be a
+                    substitute for professional medical advice, diagnosis, or treatment.</p>
+            </div>
+            <div class="box10">
+                <p class="copyrights">&copy; 2024<span class="c1"> TechMed </span> Healthcare Facility. All rights
+                    reserved.</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="js/prevent.js"></script>
+</body>
+
+</html>
